@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap');
+*{
+    margin:0 auto;
+    padding:0;
+}
+.container{
+
+position: absolute;
+width: 336px;
+box-sizing: border-box;
+left:50%;
+top:50%;
+transform: translateX(-50%) translateY(-50%);
+border: 1px solid #C4C4C4;
+border-radius: 10px;
+}
+.header_yellow{
+    position: static;
+    width: 336px;
+    height: 28px;
+    background: #FFDC40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.todolist{
+ position: static;
+ width: 198px;
+ height: 34px;
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 900;
+ font-size: 26px;
+ line-height: 30px;
+ text-align: center;
+ text-transform: capitalize;
+ transform: translateX(0%) translateY(35%);
+ 
+}
+.icon-sort{
+    background-image: url('Photos.icons/icon-sort.svg');
+    background-repeat: no-repeat;
+    float:right;
+    width:40px;
+    height:30px;
+    transform: translateX(-34%) translateY(90%);
+    
+}
+
+/*.icon-sort:hover{
+    
+    background-image: url('Photos.icons/icon-sort-black.svg');
+    background-repeat: no-repeat;
+}*/
+
+
+.inputs__div{
+    position: static;
+    width: 286px;
+    min-height: 40px;
+    margin-top: 54px;
+    margin-left: 27px;
+    margin-bottom: 20px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.button-add{
+position: static;
+width: 150px;
+height: 42px;
+background: #833AE0;
+border-radius: 71px;
+margin-left: 90px;
+margin-bottom: 19px;
+border: none;
+
+}
+
+.circle-plus{
+float:left;
+width: 42px;
+height: 42px;
+background: #9953F1;
+border-radius: 71px;
+
+    
+}
+.buttonP{
+   
+    font-family: 'Roboto', sans-serif;
+    padding-top:12px;
+    font-weight: 400;
+    color:white;
+    font-size: 14px;
+}
+
+.buttonP__add{
+   padding-right:20px;
+}
+input{
+    height:40px;
+    width: 70%;
+    border:none;
+    
+    border-radius: 10px;
+    padding-left: 20px;
+    
+    
+}
+.icon-delete{
+    float:right;
+    margin-right: 29px;
+    margin-top: 9px;
+}
+.icon-delete:hover{
+    background-image: url('Photos.icons/icon-delete-purple.svg');
+}
